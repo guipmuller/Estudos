@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class App {
+public class DadosPessoais {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
@@ -15,7 +15,7 @@ public class App {
         System.out.println("Digite sua idade: ");
         int idade = scanner.nextInt();
 
-        System.out.println("Digite seu nome: ");
+        System.out.println("Digite sua altura: ");
         Double altura = scanner.nextDouble();
 
         System.out.println("Ola, me chamo " + nome + " " + sobrenome);
